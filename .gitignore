@@ -1,0 +1,85 @@
+# Python
+.venv/
+.venv311/
+venv/
+env/
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Environment / Secrets
+.env
+.env.*
+!.env.example
+
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# IDE
+.vscode/
+.idea/
+
+# Large Models
+*.gguf
+*.bin
+*.safetensors
+*.pt
+*.pth
+*.ckpt
+*.onnx
+*.h5
+*.pkl
+*.joblib
+
+# Large Datasets
+*.csv
+*.jsonl
+*.parquet
+*.arrow
+*.feather
+*.sqlite
+*.db
+
+# Dataset / Model directories
+datasets/
+dataset/
+models/
+checkpoints/
+weights/
+
+# Vector Database
+*.faiss
+*.index
+*.npy
+*.npz
+vectorstore/
+vector_store/
+faiss_index/
+embeddings/
+
+# Logs / Temporary
+*.log
+logs/
+*.tmp
+*.temp
+*.bak
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Build / Cache
+dist/
+build/
+.cache/
+.vite/
+.pytest_cache/
+.mypy_cache/
+.ipynb_checkpoints/
+
+# 12GB Cybersecurity Dataset
+cyber10gb/
